@@ -108,8 +108,8 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCart }) => {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-              <span className="text-3xl">☕</span>
-              <span className="absolute -top-1 -right-1 text-lg">🐱</span>
+              <span className="text-3xl"></span>
+              <span className="absolute -top-1 -right-1 text-lg"></span>
             </div>
             <div className="flex flex-col">
               <span className={`text-xl font-bold transition-colors leading-none ${
